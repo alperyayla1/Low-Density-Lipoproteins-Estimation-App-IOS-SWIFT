@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890F81AD2C8E49E1008E9CDA /* capyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F81AC2C8E49E1008E9CDA /* capyApp.swift */; };
+		890F81AF2C8E49E1008E9CDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F81AE2C8E49E1008E9CDA /* ContentView.swift */; };
+		890F81B12C8E49E3008E9CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890F81B02C8E49E3008E9CDA /* Assets.xcassets */; };
+		890F81B42C8E49E3008E9CDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890F81B32C8E49E3008E9CDA /* Preview Assets.xcassets */; };
+		890F81BE2C8E49E4008E9CDA /* capyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F81BD2C8E49E4008E9CDA /* capyTests.swift */; };
+		890F81C82C8E49E4008E9CDA /* capyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F81C72C8E49E4008E9CDA /* capyUITests.swift */; };
+		890F81CA2C8E49E4008E9CDA /* capyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F81C92C8E49E4008E9CDA /* capyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890F81BA2C8E49E4008E9CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890F81A12C8E49E1008E9CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890F81A82C8E49E1008E9CDA;
+			remoteInfo = capy;
+		};
+		890F81C42C8E49E4008E9CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890F81A12C8E49E1008E9CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890F81A82C8E49E1008E9CDA;
+			remoteInfo = capy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890F81A92C8E49E1008E9CDA /* capy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F81AC2C8E49E1008E9CDA /* capyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capyApp.swift; sourceTree = "<group>"; };
+		890F81AE2C8E49E1008E9CDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		890F81B02C8E49E3008E9CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890F81B32C8E49E3008E9CDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		890F81B92C8E49E4008E9CDA /* capyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F81BD2C8E49E4008E9CDA /* capyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capyTests.swift; sourceTree = "<group>"; };
+		890F81C32C8E49E4008E9CDA /* capyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F81C72C8E49E4008E9CDA /* capyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capyUITests.swift; sourceTree = "<group>"; };
+		890F81C92C8E49E4008E9CDA /* capyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890F81A62C8E49E1008E9CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81B62C8E49E4008E9CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81C02C8E49E4008E9CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890F81A02C8E49E1008E9CDA = {
+			isa = PBXGroup;
+			children = (
+				890F81AB2C8E49E1008E9CDA /* capy */,
+				890F81BC2C8E49E4008E9CDA /* capyTests */,
+				890F81C62C8E49E4008E9CDA /* capyUITests */,
+				890F81AA2C8E49E1008E9CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890F81AA2C8E49E1008E9CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890F81A92C8E49E1008E9CDA /* capy.app */,
+				890F81B92C8E49E4008E9CDA /* capyTests.xctest */,
+				890F81C32C8E49E4008E9CDA /* capyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890F81AB2C8E49E1008E9CDA /* capy */ = {
+			isa = PBXGroup;
+			children = (
+				890F81AC2C8E49E1008E9CDA /* capyApp.swift */,
+				890F81AE2C8E49E1008E9CDA /* ContentView.swift */,
+				890F81B02C8E49E3008E9CDA /* Assets.xcassets */,
+				890F81B22C8E49E3008E9CDA /* Preview Content */,
+			);
+			path = capy;
+			sourceTree = "<group>";
+		};
+		890F81B22C8E49E3008E9CDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				890F81B32C8E49E3008E9CDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		890F81BC2C8E49E4008E9CDA /* capyTests */ = {
+			isa = PBXGroup;
+			children = (
+				890F81BD2C8E49E4008E9CDA /* capyTests.swift */,
+			);
+			path = capyTests;
+			sourceTree = "<group>";
+		};
+		890F81C62C8E49E4008E9CDA /* capyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				890F81C72C8E49E4008E9CDA /* capyUITests.swift */,
+				890F81C92C8E49E4008E9CDA /* capyUITestsLaunchTests.swift */,
+			);
+			path = capyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890F81A82C8E49E1008E9CDA /* capy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F81CD2C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capy" */;
+			buildPhases = (
+				890F81A52C8E49E1008E9CDA /* Sources */,
+				890F81A62C8E49E1008E9CDA /* Frameworks */,
+				890F81A72C8E49E1008E9CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = capy;
+			productName = capy;
+			productReference = 890F81A92C8E49E1008E9CDA /* capy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890F81B82C8E49E4008E9CDA /* capyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F81D02C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capyTests" */;
+			buildPhases = (
+				890F81B52C8E49E4008E9CDA /* Sources */,
+				890F81B62C8E49E4008E9CDA /* Frameworks */,
+				890F81B72C8E49E4008E9CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890F81BB2C8E49E4008E9CDA /* PBXTargetDependency */,
+			);
+			name = capyTests;
+			productName = capyTests;
+			productReference = 890F81B92C8E49E4008E9CDA /* capyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890F81C22C8E49E4008E9CDA /* capyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F81D32C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capyUITests" */;
+			buildPhases = (
+				890F81BF2C8E49E4008E9CDA /* Sources */,
+				890F81C02C8E49E4008E9CDA /* Frameworks */,
+				890F81C12C8E49E4008E9CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890F81C52C8E49E4008E9CDA /* PBXTargetDependency */,
+			);
+			name = capyUITests;
+			productName = capyUITests;
+			productReference = 890F81C32C8E49E4008E9CDA /* capyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890F81A12C8E49E1008E9CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					890F81A82C8E49E1008E9CDA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					890F81B82C8E49E4008E9CDA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 890F81A82C8E49E1008E9CDA;
+					};
+					890F81C22C8E49E4008E9CDA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 890F81A82C8E49E1008E9CDA;
+					};
+				};
+			};
+			buildConfigurationList = 890F81A42C8E49E1008E9CDA /* Build configuration list for PBXProject "capy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890F81A02C8E49E1008E9CDA;
+			productRefGroup = 890F81AA2C8E49E1008E9CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890F81A82C8E49E1008E9CDA /* capy */,
+				890F81B82C8E49E4008E9CDA /* capyTests */,
+				890F81C22C8E49E4008E9CDA /* capyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890F81A72C8E49E1008E9CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F81B42C8E49E3008E9CDA /* Preview Assets.xcassets in Resources */,
+				890F81B12C8E49E3008E9CDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81B72C8E49E4008E9CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81C12C8E49E4008E9CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890F81A52C8E49E1008E9CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F81AF2C8E49E1008E9CDA /* ContentView.swift in Sources */,
+				890F81AD2C8E49E1008E9CDA /* capyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81B52C8E49E4008E9CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F81BE2C8E49E4008E9CDA /* capyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F81BF2C8E49E4008E9CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F81C82C8E49E4008E9CDA /* capyUITests.swift in Sources */,
+				890F81CA2C8E49E4008E9CDA /* capyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890F81BB2C8E49E4008E9CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890F81A82C8E49E1008E9CDA /* capy */;
+			targetProxy = 890F81BA2C8E49E4008E9CDA /* PBXContainerItemProxy */;
+		};
+		890F81C52C8E49E4008E9CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890F81A82C8E49E1008E9CDA /* capy */;
+			targetProxy = 890F81C42C8E49E4008E9CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		890F81CB2C8E49E4008E9CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		890F81CC2C8E49E4008E9CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890F81CE2C8E49E4008E9CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890F81CF2C8E49E4008E9CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		890F81D12C8E49E4008E9CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capy";
+			};
+			name = Debug;
+		};
+		890F81D22C8E49E4008E9CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capy";
+			};
+			name = Release;
+		};
+		890F81D42C8E49E4008E9CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = capy;
+			};
+			name = Debug;
+		};
+		890F81D52C8E49E4008E9CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capybara.capyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = capy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890F81A42C8E49E1008E9CDA /* Build configuration list for PBXProject "capy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F81CB2C8E49E4008E9CDA /* Debug */,
+				890F81CC2C8E49E4008E9CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890F81CD2C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F81CE2C8E49E4008E9CDA /* Debug */,
+				890F81CF2C8E49E4008E9CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890F81D02C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F81D12C8E49E4008E9CDA /* Debug */,
+				890F81D22C8E49E4008E9CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890F81D32C8E49E4008E9CDA /* Build configuration list for PBXNativeTarget "capyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F81D42C8E49E4008E9CDA /* Debug */,
+				890F81D52C8E49E4008E9CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890F81A12C8E49E1008E9CDA /* Project object */;
+}
